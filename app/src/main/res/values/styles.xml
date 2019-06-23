@@ -1,0 +1,74 @@
+<!--
+   Copyright 2018 Google LLC.
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+-->
+<resources>
+  <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    <!-- Customize your theme here. -->
+    <item name="colorPrimary">@color/colorPrimary</item>
+    <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    <item name="colorAccent">@color/colorAccent</item>
+  </style>
+
+  <!--<style name="RippleStyleBlack" parent="RippleStyleWhite">-->
+    <!--<item name="mrl_rippleColor">#8096989A</item>-->
+  <!--</style>-->
+
+  <!--<style name="RippleStyleWhite">-->
+    <!--<item name="mrl_rippleOverlay">true</item>-->
+    <!--<item name="mrl_rippleColor">#80FFFFFF</item>-->
+    <!--<item name="mrl_rippleHover">true</item>-->
+    <!--<item name="mrl_rippleAlpha">0.2</item>-->
+  <!--</style>-->
+
+  <style name="Yellow.Small.AppCompatRatingBar" parent="Base.Widget.AppCompat.RatingBar.Small">
+    <item name="colorControlNormal">@color/grey_60</item>
+    <item name="colorControlActivated">@color/yellow_600</item>
+  </style>
+
+  <style name="Button.White" parent="@style/Widget.AppCompat.Button.Colored">
+    <item name="colorButtonNormal">@android:color/white</item>
+    <item name="android:textColor">@color/grey_60</item>
+  </style>
+
+  <style name="Button.Green" parent="@style/Widget.AppCompat.Button.Colored">
+    <item name="colorButtonNormal">@color/light_green_500</item>
+    <item name="android:textColor">@android:color/white</item>
+  </style>
+
+  <style name="EditText.Grey" parent="@style/AppTheme">
+    <item name="colorControlActivated">@color/grey_60</item>
+    <item name="colorControlHighlight">@color/grey_60</item>
+    <item name="colorControlNormal">@color/grey_40</item>
+  </style>
+
+  <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+  <style name="Toolbar.Light" parent="@style/AppTheme">
+    <item name="colorControlNormal">@color/grey_60</item>
+    <item name="android:textColorPrimary">@color/grey_60</item>
+  </style>
+
+  <style name="EditText.GreySoft" parent="@style/AppTheme">
+    <item name="colorControlActivated">@color/grey_40</item>
+    <item name="colorControlHighlight">@color/grey_40</item>
+    <item name="colorControlNormal">@color/grey_20</item>
+  </style>
+
+  <style name="Button.Accent" parent="@style/Widget.AppCompat.Button.Colored">
+    <item name="colorButtonNormal">@color/colorAccent</item>
+    <item name="android:textColor">@android:color/white</item>
+  </style>
+
+</resources>
